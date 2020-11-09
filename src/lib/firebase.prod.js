@@ -1,13 +1,10 @@
 import Firebase from "firebase/app";
 import 'firebase/firestore'
 import 'firebase/auth'
-import dotenv from  "dotenv"
 import { seedDatabase } from "../seed"
 
-dotenv.config()
-
 const config = {
-    apiKey: process.env.API_KEY,
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "movie-deck.firebaseapp.com",
     databaseURL: "https://movie-deck.firebaseio.com",
     projectId: "movie-deck",
