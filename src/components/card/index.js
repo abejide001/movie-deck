@@ -53,3 +53,14 @@ Card.Item = function CardItem({ item, children, ...restProps }) {
 Card.Image = function CardImage({ ...restProps }) {
     return <Image {...restProps} />
 }
+
+Card.Feature = function CardFeature({ children, category, ...restProps }) {
+    // const { showFeature, itemFeature, setShowFeature } = useState(FeatureContext)
+    // return showFeature ? (
+    //     <Feature src={`/images/${category}/${itemFeature.genre}/${itemFeature.slug}/large.png`}>
+    //         <Content>
+    //             <Feature.Title>{itemFeature.title}</Feature.Title>
+    //         </Content>
+    //     </Feature>
+    // )
+}
